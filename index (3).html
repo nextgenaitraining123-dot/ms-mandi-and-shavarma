@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MS Mandi &amp; Shawarma — Authentic Arabian Flavours</title>
+<meta name="description" content="Mandi, shawarma and grilled chicken. Sample website for MS Mandi &amp; Shawarma.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="intro" aria-hidden="true"><span class="gold">MS MANDI &amp; SHAWARMA</span></div>
+
+<nav aria-label="Main">
+  <a class="logo" href="#home"><span class="seal">MS</span><span class="gold">MS Mandi &amp; Shawarma</span></a>
+  <input type="checkbox" id="menu-t" class="vh" aria-label="Toggle menu">
+  <label for="menu-t" class="burger"><i></i></label>
+  <div class="links">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a><a href="#specials">Specials</a>
+    <a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+    <a class="btn fill" href="#menu">Order Now</a>
+  </div>
+</nav>
+
+<main>
+<header class="hero" id="home">
+  <div class="dots" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="seal big" role="img" aria-label="MS Mandi &amp; Shawarma logo"><b>MS</b><small>MANDI &amp; SHAWARMA</small></div>
+  <h1 class="gold">AUTHENTIC FLAVOURS. UNFORGETTABLE MOMENTS.</h1>
+  <p>Experience the Royal Taste of Mandi &amp; Shawarma.</p>
+  <div class="cta"><a class="btn" href="#menu">Explore Our Menu</a><a class="btn fill pulse" href="#menu">Order Now</a></div>
+</header>
+
+<section class="about rv" id="about">
+  <div>
+    <h2 class="gold">Our story</h2>
+    <p class="sub">[Editable copy] MS Mandi &amp; Shawarma was started out of a love for slow-cooked Arabian rice, fresh ingredients and generous portions. Every plate is prepared with care, because we want you to leave satisfied.</p>
+    <div class="stats">
+      <div><b class="num" style="--to:5000"></b>Sample stat: plates served</div>
+      <div><b class="num" style="--to:10"></b>Sample stat: menu classics</div>
+      <div><b class="num" style="--to:100"></b>Sample stat: % fresh daily</div>
+    </div>
+  </div>
+  <div class="visual" role="img" aria-label="Mandi platter placeholder">🍗</div>
+</section>
+
+<section id="menu">
+  <h2 class="gold rv">Our menu</h2>
+  <p class="sub">Prices and ratings are sample data — edit them in the HTML.</p>
+  <input type="radio" name="f" id="f-all" class="vh" checked>
+  <input type="radio" name="f" id="f-mandi" class="vh">
+  <input type="radio" name="f" id="f-sh" class="vh">
+  <input type="radio" name="f" id="f-gr" class="vh">
+  <input type="radio" name="f" id="f-bv" class="vh">
+  <div class="filters">
+    <label for="f-all">All</label><label for="f-mandi">Mandi</label><label for="f-sh">Shawarma</label>
+    <label for="f-gr">Grills</label><label for="f-bv">Beverages</label>
+  </div>
+  <div class="grid">
+    <article class="card mandi"><span class="badge">Bestseller</span><div class="cimg"><div class="img i1">🍗</div></div>
+      <h3>Chicken Mandi</h3><p>Tender chicken over fragrant smoky rice.</p>
+      <div class="meta"><b>₹249</b><small>★ 4.8 (sample)</small></div>
+      <input type="checkbox" id="a1" class="vh"><label for="a1" class="add"></label></article>
+    <article class="card mandi"><div class="cimg"><div class="img i2">🍖</div></div>
+      <h3>Mutton Mandi</h3><p>Slow-cooked mutton, spiced rice, house sauce.</p>
+      <div class="meta"><b>₹379</b><small>★ 4.7 (sample)</small></div>
+      <input type="checkbox" id="a2" class="vh"><label for="a2" class="add"></label></article>
+    <article class="card mandi"><span class="badge">Chef's Special</span><div class="cimg"><div class="img i3">👑</div></div>
+      <h3>Special Chicken Mandi</h3><p>Our signature mandi with nuts and raisins.</p>
+      <div class="meta"><b>₹299</b><small>★ 4.9 (sample)</small></div>
+      <input type="checkbox" id="a3" class="vh"><label for="a3" class="add"></label></article>
+    <article class="card mandi"><div class="cimg"><div class="img i4">🍛</div></div>
+      <h3>Family Mandi</h3><p>A shared platter of rice and chicken for 4.</p>
+      <div class="meta"><b>₹899</b><small>★ 4.8 (sample)</small></div>
+      <input type="checkbox" id="a4" class="vh"><label for="a4" class="add"></label></article>
+    <article class="card sh"><span class="badge">Bestseller</span><div class="cimg"><div class="img i5">🌯</div></div>
+      <h3>Chicken Shawarma</h3><p>Juicy chicken, garlic sauce and pickles.</p>
+      <div class="meta"><b>₹99</b><small>★ 4.6 (sample)</small></div>
+      <input type="checkbox" id="a5" class="vh"><label for="a5" class="add"></label></article>
+    <article class="card sh"><div class="cimg"><div class="img i6">🥙</div></div>
+      <h3>Rumali Shawarma</h3><p>Thin rumali roti wrapped around shawarma.</p>
+      <div class="meta"><b>₹129</b><small>★ 4.7 (sample)</small></div>
+      <input type="checkbox" id="a6" class="vh"><label for="a6" class="add"></label></article>
+    <article class="card gr"><div class="cimg"><div class="img i7">🔥</div></div>
+      <h3>Grilled Chicken</h3><p>Charcoal-grilled, marinated overnight.</p>
+      <div class="meta"><b>₹279</b><small>★ 4.8 (sample)</small></div>
+      <input type="checkbox" id="a7" class="vh"><label for="a7" class="add"></label></article>
+    <article class="card bv"><div class="cimg"><div class="img i8">🥤</div></div>
+      <h3>Drinks &amp; Desserts</h3><p>Cold drinks and a sweet finish.</p>
+      <div class="meta"><b>₹59</b><small>★ 4.5 (sample)</small></div>
+      <input type="checkbox" id="a8" class="vh"><label for="a8" class="add"></label></article>
+  </div>
+</section>
+
+<div class="chef-w" id="specials">
+  <section class="chef rv">
+    <div>
+      <h2 class="gold">Chef's special: Royal Mandi Platter</h2>
+      <p class="sub">[Editable copy] Our most generous plate: smoky rice, whole grilled chicken and signature sauces, made for sharing.</p>
+      <div class="price">₹1,199 <small style="font-size:1rem">sample price</small></div>
+      <a class="btn fill pulse" href="#menu">Order Now</a>
+    </div>
+    <div class="visual" role="img" aria-label="Royal mandi platter placeholder">🍽️</div>
+  </section>
+</div>
+
+<section class="rv">
+  <h2 class="gold">Special offers</h2>
+  <p class="sub">Sample offers only. Replace with your real combos and prices.</p>
+  <div class="three">
+    <div class="offer"><b>Combo Meal</b>[Sample] Shawarma + drink. Add your price.</div>
+    <div class="offer"><b>Family Pack</b>[Sample] Family mandi for 4. Add your price.</div>
+    <div class="offer"><b>Mandi Special</b>[Sample] Special mandi deal. Add your offer.</div>
+  </div>
+</section>
+
+<section id="gallery" class="rv">
+  <h2 class="gold">Gallery</h2>
+  <p class="sub">Placeholders: add your own photos by setting --photo in style.css.</p>
+  <div class="gal">
+    <div class="g1" data-t="Mandi rice &amp; grilled chicken">🍗</div><div class="g2" data-t="Fresh shawarma">🌯</div>
+    <div class="g3" data-t="Arabian platter">🍽️</div><div class="g4" data-t="Kitchen &amp; ambience">👨‍🍳</div>
+  </div>
+</section>
+
+<section id="reviews" class="rv">
+  <h2 class="gold">What guests say</h2>
+  <p class="sub">Placeholder reviews. Replace with genuine customer feedback.</p>
+  <div class="three">
+    <blockquote class="rev"><em>PLACEHOLDER REVIEW</em><p>“Sample feedback about the mandi goes here.”</p>— Customer name</blockquote>
+    <blockquote class="rev"><em>PLACEHOLDER REVIEW</em><p>“Sample feedback about the shawarma goes here.”</p>— Customer name</blockquote>
+    <blockquote class="rev"><em>PLACEHOLDER REVIEW</em><p>“Sample feedback about service goes here.”</p>— Customer name</blockquote>
+  </div>
+</section>
+
+<section class="contact rv" id="contact">
+  <div>
+    <h2 class="gold">Visit &amp; contact</h2>
+    <p>📍 Zehra Nagar Colony, Purani Haveli, Dabeerpura, Hyderabad, Telangana 500024<br>📞 <a href="tel:+919664833920">+91 96648 33920</a><br>🕒 Open 24 hours, every day (from the Google listing; please confirm)</p>
+    <p style="margin-top:1rem"><a class="btn fill" href="https://wa.me/919664833920?text=Hello%20MS%20Mandi%20%26%20Shawarma">WhatsApp us</a></p>
+    <p style="margin-top:1rem">Social: <a href="#">Instagram</a> · <a href="#">Facebook</a> · <a href="#">YouTube</a> (add your links)</p>
+    <div class="map"><a class="btn fill" href="https://www.google.com/maps/search/?api=1&amp;query=M.S+Mandi+%26+Shawarma&amp;query_place_id=ChIJ0_ndTxCZyzsRB14FAsh1bvM" target="_blank" rel="noopener">Open in Google Maps</a></div>
+  </div>
+  <form action="mailto:your@email.com" method="post" enctype="text/plain">
+    <h3>Reservation or enquiry</h3>
+    <input name="name" placeholder="Your name" required aria-label="Name">
+    <input name="phone" type="tel" placeholder="Phone number" required pattern="[0-9+ ]{10,15}" aria-label="Phone">
+    <textarea name="msg" rows="4" placeholder="Your message" required aria-label="Message"></textarea>
+    <button class="btn fill" type="submit">Send enquiry</button>
+    <p class="note">This form opens your email app. Without a server, it does not send anything by itself.</p>
+  </form>
+</section>
+</main>
+
+<footer>
+  <p class="logo"><span class="seal">MS</span><span class="gold">MS Mandi &amp; Shawarma</span></p>
+  <p>Mandi, shawarma and grills, made fresh.</p>
+  <nav aria-label="Footer"><a href="#about">About</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav>
+  <p>Dabeerpura, Hyderabad 500024 · +91 96648 33920 · Open 24 hours</p>
+  <p>© 2026 MS Mandi &amp; Shawarma. All rights reserved.</p>
+</footer>
+
+<!-- CSS-only cart -->
+<input type="checkbox" id="cart-t" class="vh" aria-label="Open cart">
+<label for="cart-t" class="fab" title="Cart">🛒</label>
+<a href="#home" class="top" aria-label="Back to top">↑</a>
+<aside class="drawer" aria-label="Cart">
+  <label for="cart-t" class="close">✕</label>
+  <h2 class="gold">Your order</h2>
+  <p class="count"></p>
+  <p class="empty sub">Nothing yet. Pick dishes from the menu.</p>
+  <div class="row row1"><span>Chicken Mandi — ₹249</span><label for="a1">Remove</label></div>
+  <div class="row row2"><span>Mutton Mandi — ₹379</span><label for="a2">Remove</label></div>
+  <div class="row row3"><span>Special Chicken Mandi — ₹299</span><label for="a3">Remove</label></div>
+  <div class="row row4"><span>Family Mandi — ₹899</span><label for="a4">Remove</label></div>
+  <div class="row row5"><span>Chicken Shawarma — ₹99</span><label for="a5">Remove</label></div>
+  <div class="row row6"><span>Rumali Shawarma — ₹129</span><label for="a6">Remove</label></div>
+  <div class="row row7"><span>Grilled Chicken — ₹279</span><label for="a7">Remove</label></div>
+  <div class="row row8"><span>Drinks &amp; Desserts — ₹59</span><label for="a8">Remove</label></div>
+  <p class="note">Plain HTML/CSS cannot add up totals, change quantities or write the selected items into a message. Nothing is sent to the restaurant.</p>
+  <p style="margin-top:1rem"><a class="btn fill" href="https://wa.me/919664833920?text=Hello%2C%20I%20would%20like%20to%20place%20an%20order.">Message on WhatsApp</a></p>
+</aside>
+</body>
+</html>
